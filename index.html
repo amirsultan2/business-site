@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Business</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="site-title">My Business</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="controls">
+      <button onclick="toggleLanguage()">🌐 Switch Language</button>
+      <button onclick="toggleDarkMode()">🌓 Dark Mode</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2 id="hero-title">Welcome to Our Business</h2>
+    <p id="hero-text">We provide high-quality services to grow your business.</p>
+    <a href="#contact" class="btn" id="btn-contact">Get in Touch</a>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a professional team offering expert solutions in our industry.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>✔ Website Development</li>
+      <li>✔ Digital Marketing</li>
+      <li>✔ Business Consulting</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/150" alt="Work 1">
+      <img src="https://via.placeholder.com/150" alt="Work 2">
+      <img src="https://via.placeholder.com/150" alt="Work 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Business. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
